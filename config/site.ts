@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Launch UI",
-  url: "https://launchuicomponents.com",
+  name: "TCGTrade",
+  url: process.env.VERCEL_URL ? "https://tcgtrade.me" : "http://localhost:3000",
   getStartedUrl:
     "https://launchuicomponents.com/docs/getting-started/introduction",
   ogImage: "https://launchuicomponents.com/og.jpg",

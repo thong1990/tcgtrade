@@ -41,21 +41,21 @@ interface NavbarProps {
 
 export default function Navbar({
   logo = <LaunchUI />,
-  name = "Launch UI",
+  name = "TCGTrade",
   homeUrl = siteConfig.url,
   mobileLinks = [
     { text: "Getting Started", href: siteConfig.url },
-    { text: "Components", href: siteConfig.url },
-    { text: "Documentation", href: siteConfig.url },
+    // { text: "Components", href: siteConfig.url },
+    // { text: "Documentation", href: siteConfig.url },
   ],
   actions = [
-    { text: "Sign in", href: siteConfig.url, isButton: false },
-    {
-      text: "Get Started",
-      href: siteConfig.url,
-      isButton: true,
-      variant: "default",
-    },
+    // { text: "Sign in", href: siteConfig.url, isButton: false },
+    // {
+    //   text: "Get Started",
+    //   href: siteConfig.url,
+    //   isButton: true,
+    //   variant: "default",
+    // },
   ],
   showNavigation = true,
   customNavigation,
