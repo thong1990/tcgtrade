@@ -1,8 +1,9 @@
 // app/privacy/page.tsx
 
+import { Metadata } from "next";
+
 import Footer from "@/components/sections/footer/default";
 import Navbar from "@/components/sections/navbar/default";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - PokeTradeTCG",
